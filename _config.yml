@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Diego Silva, Patrick Salsbury, Kai Ni"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/avatar.png"
   bio              : "DSC 180 Capstone Group A10-2"
   location         : "San Diego, CA"
   email            :
