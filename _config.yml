@@ -12,19 +12,19 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "CHD Adversarial NN | DSC 180 Capstone"
-title_separator          : "-"
+title                    : "CHD Adversarial NN"
+title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "CHD Adversarial Nerual Network"
 description              : "An Adversarial Framework for Mitigating Gender Bias in Coronary Heart Disease Prediction"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://chd-adversarial-nn.github.io" 
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "patsals/DSC-180-Capstone" 
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -119,7 +119,7 @@ author:
   location         : "San Diego, CA"
   email            :
   links:
-    - label: "GitHub"
+    - label: "Project Repository"
       icon: "fas fa-fw fa-github"
       url: "https://github.com/patsals/DSC-180-Capstone"
 
@@ -128,7 +128,7 @@ footer:
   links:
     - label: "Diego Silva"
       icon: "fab fa-fw fa-link"
-      url: "https://github.com/Dsilva19"
+      url: "https://github.com/dsilva019"
     - label: "Patrick Salsbury"
       icon: "fab fa-fw fa-link"
       url: "https://github.com/patsals"
@@ -236,7 +236,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
@@ -244,7 +243,6 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jekyll-include-cache
 
 
