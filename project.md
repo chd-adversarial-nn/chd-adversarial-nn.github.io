@@ -5,6 +5,9 @@ permalink: /project
 header:
     image: /assets/images/header.jpg
 ---
+
+*Note: You can replicate our project following our [setup instructions](/setup).*
+
 In the rapidly evolving landscape of healthcare, Artificial Intelligence (AI) and Machine Learning (ML) are increasingly being employed to classify and diagnose patients. While these technologies offer immense potential, they also introduce significant challenges, particularly in the realm of bias and fairness. Our project focuses on a critical issue at the intersection of AI and healthcare: gender bias in the prediction of Coronary Heart Disease (CHD).
 
 ## Our Challenge
@@ -22,7 +25,7 @@ By leveraging this adversarial setup, we encourage our primary model to focus on
 
 ## Our Dataset
 
-Our project utilizes health statistics data from the National Health and Nutrition Survey (NHANES), a comprehensive dataset that includes demographic, laboratory, and questionnaire data from over 37,000 individuals. We select and process 35 features to train our model, which can be referenced in our [complete list of features](features).
+Our project utilizes health statistics data from the National Health and Nutrition Survey (NHANES), a comprehensive dataset that includes demographic, laboratory, and questionnaire data from over 37,000 individuals. We select and process 35 features to train our model, which can be referenced in our [complete list of features](/project/features).
 
 ## Project Goals
 

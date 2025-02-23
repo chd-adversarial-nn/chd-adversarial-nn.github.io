@@ -1,11 +1,8 @@
 ---
-layout: page
-title: List of Features
+layout: single 
+title: Complete List of Features
 permalink: /project/features
 ---
-
-# Complete List of Dataset Features
-
 | Attribute                        | Description                                                                                  |
 | --- | --- | 
 | Gender                           | Male/Female                                                                                  |
