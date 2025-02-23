@@ -1,16 +1,13 @@
 ---
-layout: page
-title: About our Model
+layout: single 
+title: Mitigating Gender Bias in Coronary Heart Disease Prediction
 permalink: /project
+header:
+    image: /assets/images/header.jpg
 ---
+In the rapidly evolving landscape of healthcare, Artificial Intelligence (AI) and Machine Learning (ML) are increasingly being employed to classify and diagnose patients. While these technologies offer immense potential, they also introduce significant challenges, particularly in the realm of bias and fairness. Our project focuses on a critical issue at the intersection of AI and healthcare: gender bias in the prediction of Coronary Heart Disease (CHD).
 
-# Mitigating Gender Bias in Coronary Heart Disease Prediction
-
-## Project Overview
-
-In the rapidly evolving landscape of healthcare, artificial intelligence (AI) and machine learning (ML) are increasingly being employed to classify and diagnose patients. While these technologies offer immense potential, they also present significant challenges, particularly in the realm of bias and fairness. Our project focuses on a critical issue at the intersection of AI and healthcare: gender bias in the prediction of Coronary Heart Disease (CHD).
-
-## The Challenge
+## Our Challenge
 
 Coronary Heart Disease, a type of Cardiovascular Disease (CVD), has historically been associated with significant gender disparities in diagnosis and treatment. Often perceived as a "man's disease", female patients of CHD have experienced higher rates of misdiagnoses and suboptimal care. Our project aims to address this issue by developing an innovative machine learning model that can accurately and efficiently predict CHD while mitigating gender-based biases.
 
@@ -23,7 +20,7 @@ We implement a neural network (NN) model using an adversarial configuration to t
 
 By leveraging this adversarial setup, we encourage our primary model to focus on relevant diagnostic features while discouraging reliance on sensitive attributes like gender. This methodology aims to promote more equitable healthcare outcomes, particularly for underrepresented patient populations in CHD diagnosis and treatment.
 
-## Data and Methodology
+## Our Dataset
 
 Our project utilizes health statistics data from the National Health and Nutrition Survey (NHANES), a comprehensive dataset that includes demographic, laboratory, and questionnaire data from over 37,000 individuals. We select and process 35 features to train our model, which can be referenced in our [complete list of features](features).
 
