@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Project Repo"
-    url: https://github.com/patsals/DSC-180-Capstone 
-  - title: "Setup"
+  # - title: "Project Repo"
+  #   url: https://github.com/patsals/DSC-180-Capstone/ 
+  - title: "Get Started"
     url: /setup/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Our Model"
+    url: /project/
+  - title: "Development"
+    url: /development/
+  - title: "Results"
+    url: /results/
