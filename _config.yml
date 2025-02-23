@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Diego Silva, Patrick Salsbury, Kai Ni"
-  avatar           : "/assets/images/avatar.png"
+  avatar           : "/assets/images/logo.png"
   bio              : "DSC 180 Capstone Group A10-2"
   location         : "San Diego, CA"
   email            :
@@ -127,13 +127,13 @@ author:
 footer:
   links:
     - label: "Diego Silva"
-      icon: "fab fa-fw fa-link"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/dsilva019"
     - label: "Patrick Salsbury"
-      icon: "fab fa-fw fa-link"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/patsals"
     - label: "Kai Ni"
-      icon: "fab fa-fw fa-link"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/ckni"
 
 # Reading Files
