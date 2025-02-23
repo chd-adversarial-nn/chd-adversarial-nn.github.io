@@ -1,3 +1,9 @@
+---
+title: "Getting Started"
+layout: default
+permalink: /setup/
+---
+
 # DSC180A - Capstone Project
 
 This repository contains all of the code that was utilized for the 2024-2025 UCSD Data Science Capstone Project.
