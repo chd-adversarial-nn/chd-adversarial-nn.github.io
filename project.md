@@ -14,6 +14,9 @@ In the rapidly evolving landscape of healthcare, Artificial Intelligence (AI) an
 
 Coronary Heart Disease, a type of Cardiovascular Disease (CVD), has historically been associated with significant gender disparities in diagnosis and treatment. Often perceived as a "man's disease", female patients of CHD have experienced higher rates of misdiagnoses and suboptimal care. Our project aims to address this issue by developing an innovative machine learning model that can accurately and efficiently predict CHD while mitigating gender-based biases.
 
+![CHD Diagram](/assets/images/heart-disease.png)
+*[Image source](https://www.dinw.com/prioritize-your-heart-health-understanding-coronary-heart-disease-and-the-power-of-early-detection)*
+
 ## Our Approach
 
 We implement a neural network (NN) model using an adversarial configuration to tackle this challenge. Our approach involves:
