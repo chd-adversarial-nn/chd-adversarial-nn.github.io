@@ -4,19 +4,18 @@ title: "Getting Started"
 permalink: /setup/
 author_profile: true
 toc: true
+toc_label: "Local Setup Instructions"
+toc_icon: "wrench"
 toc_sticky: true
 ---
-Please reference our [project repository](https://github.com/patsals/DSC-180-Capstone), which contains all of the code that was utilized for our 2024-2025 UC San Diego Data Science Capstone Project: An Adversarial Framework for Mitigating Gender Bias in Coronary Heart Disease Prediction.
+*Please reference our [project repository](https://github.com/patsals/DSC-180-Capstone) to view the codebase for our 2024-2025 UC San Diego Data Science Capstone Project: An Adversarial Framework for Mitigating Gender Bias in Coronary Heart Disease Prediction.*
 
-## How to Get Started
-Feel free to follow the instructions listed on this page to set up and replicate our project on your local environment.
-
-### 1) Getting the code
+## 1) Getting the code
 - Clone repository into your working directory:
     `git clone https://github.com/patsals/DSC-180-Capstone.git`
 - Enter the repository directory `DSC 180 Capstone`
 
-### 2.a) Setting up environment (Windows Users)
+## 2.a) Setting up environment (Windows Users)
 - Install Linux using Windows Subsystem for Linux (WSL) in powershell:
     `wsl --install`
 - Install Linux Distribution System through Microsoft store:
@@ -28,7 +27,7 @@ Feel free to follow the instructions listed on this page to set up and replicate
 - You should see `Ubuntu 22.04.5 LTS` and select that option
 - Proceed to 2.b instructions
 
-### 2.b) Setting up environment (Linux/Mac OS users)
+## 2.b) Setting up environment (Linux/Mac OS users)
 - Note: TensorFlow may not be available for the latest version of Python. As of the development of this project, we are using Python 3.11.
 - Create a working environment:
     `python3 -m venv venv`
@@ -37,7 +36,7 @@ Feel free to follow the instructions listed on this page to set up and replicate
 - Download the dependencies:
     `pip install -r requirements.txt`
 
-### 3) Downloading & Processing the Data
+## 3) Downloading & Processing the Data
 - Run the data setup script to extract, transform, and load all of the data locally:
     - `python data_setup.py` for windows users
     - `python3 data_setup.py` for Linux/Mac OS users
