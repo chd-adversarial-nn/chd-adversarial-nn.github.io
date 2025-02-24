@@ -3,10 +3,10 @@ main:
   # - title: "Project Repo"
   #   url: https://github.com/patsals/DSC-180-Capstone/ 
   - title: "Get Started"
-    url: /setup/
+    url: /setup
   - title: "Our Model"
-    url: /project/
+    url: /project
   - title: "Development"
-    url: /development/
+    url: /development
   - title: "Results"
-    url: /results/
+    url: /results

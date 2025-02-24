@@ -1,7 +1,7 @@
 ---
 layout: single 
 title: "Getting Started"
-permalink: /setup/
+permalink: /setup
 author_profile: true
 toc: true
 toc_label: "Local Setup Instructions"
