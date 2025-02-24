@@ -36,10 +36,11 @@ Our project utilizes health statistics data from the National Health and Nutriti
 
 Through this project, we aim to:
 
-1. Develop a fair and unbiased algorithm for CHD classification
-2. Maintain clinically relevant accuracy while reducing gender-based disparities
-3. Contribute to the growing body of literature on ethical AI use in healthcare
-4. Offer a novel approach to mitigating demographic biases in cardiovascular disease diagnostics
+- Develop a fair and unbiased algorithm for CHD classification
+- Maintain clinically relevant accuracy while reducing gender-based disparities
+- Contribute to the growing body of literature on ethical AI use in healthcare
+- Offer a novel approach to mitigating demographic biases in cardiovascular disease diagnostics
 
 We invite you to explore our website to learn more about our development process, methodologies, and the results of our research. Our work represents a step towards more equitable and accurate CHD prediction across all demographic groups, potentially improving healthcare outcomes for patients regardless of gender.
 
+Read More: [Our Development Process](/development), [Results & Beyond](/results)

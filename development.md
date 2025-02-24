@@ -72,3 +72,4 @@ We systematically evaluated different hyperparameter combinations to identify th
 
 *Performance and fairness metrics for baseline and final models are presented on our [Results & Beyond](/results) page.*
 
+Read More: [About Our Model](/project), [Results & Beyond](/results)
