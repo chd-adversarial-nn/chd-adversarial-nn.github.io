@@ -2,6 +2,8 @@
 layout: single 
 title: Complete List of Features
 permalink: /project/features
+classes: wide
+author_profile: true
 ---
 | Attribute                        | Description                                                                                  |
 | --- | --- | 
