@@ -120,7 +120,7 @@ author:
   email            :
   links:
     - label: "Project Repository"
-      icon: "fas fa-fw fa-github"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/patsals/DSC-180-Capstone"
 
 # Site Footer

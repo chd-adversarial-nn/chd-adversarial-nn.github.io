@@ -2,8 +2,10 @@
 layout: single 
 title: Mitigating Gender Bias in Coronary Heart Disease Prediction
 permalink: /project
+classes: wide
+author_profile: true
 header:
-    image: /assets/images/header.jpg
+    overlay_image: /assets/images/header.jpg
 ---
 
 *Note: You can replicate our project following our [setup instructions](/setup).*

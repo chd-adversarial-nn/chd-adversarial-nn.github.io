@@ -2,9 +2,11 @@
 layout: single 
 title: "Getting Started"
 permalink: /setup/
+author_profile: true
 toc: true
+toc_sticky: true
 ---
-Please reference our [repository](https://github.com/patsals/DSC-180-Capstone), which contains all of the code that was utilized for our 2024-2025 UC San Diego Data Science Capstone Project: An Adversarial Framework for Mitigating Gender Bias in Coronary Heart Disease Prediction.
+Please reference our [project repository](https://github.com/patsals/DSC-180-Capstone), which contains all of the code that was utilized for our 2024-2025 UC San Diego Data Science Capstone Project: An Adversarial Framework for Mitigating Gender Bias in Coronary Heart Disease Prediction.
 
 ## How to Get Started
 Feel free to follow the instructions listed on this page to set up and replicate our project on your local environment.
