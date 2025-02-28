@@ -53,7 +53,16 @@ Our primary model is a Feed-Forward Neural Network implemented in TensorFlow. Th
 | Hidden Layer 2 | 16 units, ReLU activation |
 | Output Layer | 1 unit, sigmoid activation (binary classification) |
 
-We trained our model using Binary Cross-Entropy loss and the Adam optimizer. Evaluation metrics included Binary Accuracy and Balanced Accuracy.
+We trained our model using Binary Cross-Entropy loss and the Adam optimizer. Evaluation metrics included Binary Accuracy and Balanced Accuracy. During each Epoch, our model is trained as follows:
+1. Neural Network makes a Forward Pass on a batch
+2. Neural Network Computes Loss (Binary Entropy Loss)
+3. SGD Classifier uses NN prediction probabilities to predict sensitive attribute
+4. Compute Binary Entropy Loss of Adversarial Model
+5. Compute Combined Loss Function
+6. Compute Gradients with Combined Loss
+7. Update Weights with new gradients
+
+We evaluated our model's predictive performance using accuracy, precision, recall, and F1 score. We evaluated our model's fairness using Demographic Parity Difference, Equal Opportunity Difference, and Disparate Impact.
 
 ## 5. Adversarial Debiaising
 
