@@ -35,12 +35,17 @@ The best configuration of hyperparameters we found was as follows:
 | --- | --- | --- | --- |
 | 0.001 | 0.05 | 32 | Logistic Regression |
 
-With this model, we were able to achieve the following performance and fairness metrics:
+With this model, we were able to achieve the following  metrics:
 
 | Metric | Score |
 | --- | --- |
 | Accuracy | 0.7715  | 
 | Balanced Accuracy | 0.7722 |
+
+![Accuracy and Balanced Accuracy over Epochs](/assets/images/model_accuracies.png)
+*Visuals: Progression of accuracy and balanced accuracy over epochs of training.*
+
+Comparing these numbers to our baseline model, the test accuracy score dropped significantly from 0.8789 to 0.7715 but the test balanced accuracy increased from 0.7181 to 0.7715. This is likely due to the fact that the baseline model trained on an extremely unbalanced dataset, enabling a high accuracy just from predicting `false` for all patients and diagnosing them as not having CHD.
 
 | Metric | Score |
 | --- | --- | --- |
@@ -48,7 +53,8 @@ With this model, we were able to achieve the following performance and fairness 
 | Equal Opportunity Difference | 0.0106 |
 | Disparate Impact | 1.4245 |
 
-Comparing these numbers to our baseline model, the test accuracy score dropped significantly from 0.8789 to 0.7715 but the test balanced accuracy increased from 0.7181 to 0.7715. This is likely due to the fact that the baseline model trained on an extremely unbalanced dataset, enabling a high accuracy just from predicting `false` for all patients and diagnosing them as not having CHD.
+![Fairness Metrics over Epochs](/assets/images/model_fairness.png)
+*Visuals: Progression of demographic parity difference, equal opportunity difference, and disparate impact over epochs of training*
 
 Considering the ideal values for all three fairness metrics, the model demonstrated an increase in magnitude of demographic parity from -0.1876 to 0.2436, significant decrease in magnitude of equal opportunity from -0.2409 to 0.0106, and slight decrease in disparate impact from 0.466 (0.534 to ideal) to 1.4245 (0.4245 to ideal).
 
@@ -63,9 +69,9 @@ Importantly, we note that our model should under no context be used to conclusiv
 ## Limitations
 
 Despite promising results, our model has some limitations.
-* Firstly, this model is only capable of protecting one feature, in our case gender. For contexts where multiple classes should be protected, further development is required.
-* Another limitation is that this framework primarily focuses on a single fairness metric. While in our results changes in other fairness metrics are observed, those changes may not always occur.
-* Given our limited computational resources, our model would not have been able to accomodate for a larger dataset. Further research could leverage more powerful processors and improve model efficiency to potentially achieve better results.
+- Firstly, this model is only capable of protecting one feature, in our case gender. For contexts where multiple classes should be protected, further development is required
+- Another limitation is that this framework primarily focuses on a single fairness metric. While in our results changes in other fairness metrics are observed, those changes may not always occur
+- Given our limited computational resources, our model would not have been able to accomodate for a larger dataset. Further research could leverage more powerful processors and improve model efficiency to potentially achieve better results
 
 ## Final Thoughts
 

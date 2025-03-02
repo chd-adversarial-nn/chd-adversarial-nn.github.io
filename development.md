@@ -24,10 +24,10 @@ A full list of references is available on our [works cited page](/references). N
 
 We utilized data from the [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/about/), a comprehensive survey conducted by the CDC's National Center for Health Statistics. Our data processing involved:
 
-- Accessing NHANES data via the public API, compiling information across multiple years (1999-2016).
-- Addressing inconsistencies in variable naming conventions and data formatting across different survey periods.
-- Managing missing data; we chose to remove observations with many null values and impute mean value where reasonable, resulting in a final dataset of over 30,000 observations.
-- Selecting 35 key variables relevant to CHD prediction (see our [list of features](/project/features)).
+- Accessing NHANES data via the public API, compiling information across multiple years (1999-2016)
+- Addressing inconsistencies in variable naming conventions and data formatting across different survey periods
+- Managing missing data; we chose to remove observations with many null values and impute mean value where reasonable, resulting in a final dataset of over 30,000 observations
+- Selecting 35 key variables relevant to CHD prediction (see our [list of features](/project/features))
 
 ## 3. Baseline Model Development
 
@@ -48,9 +48,9 @@ Our primary model is a Feed-Forward Neural Network implemented in TensorFlow. Th
 | Layer | Configuration |
 | --- | --- |
 | Input Layer | 35 units (corresponding to our selected variables) |
-| Hidden Layer 1 | 32 units, ReLU activation |
+| Dense Layer | 32 units, ReLU activation |
 | Dropout Layer | 30% dropout rate for regularization |
-| Hidden Layer 2 | 16 units, ReLU activation |
+| Dense Layer | 16 units, ReLU activation |
 | Output Layer | 1 unit, sigmoid activation (binary classification) |
 
 We trained our model using Binary Cross-Entropy loss and the Adam optimizer. Evaluation metrics included Binary Accuracy and Balanced Accuracy. During each Epoch, our model is trained as follows:
@@ -67,6 +67,11 @@ We evaluated our model's predictive performance using accuracy, precision, recal
 ## 5. Adversarial Debiaising
 
 To directly address gender bias, we integrated an adversarial component into our model. This component aims to penalize the primary model for making predictions that heavily correlate with gender. Our adversarial model is an SGD Classifier trained to predict gender based on the primary model's predictions. By optimizing the primary model to minimize the adversarial model's accuracy, we encourage it to rely less on gender as a predictive factor.
+
+![Visualizations of Accuracy, Primary Loss, Adversarial Loss over Epochs](/assets/images/model_loss.png)
+*Visuals: Progression of accuracy, primary model loss, and adversarial model loss over epochs of training.*
+
+As the combined model is trained, the primary model's loss decreases and the overall accuracy increases. Conversely, the the adversarial model's loss increases, representing a diminishing ability of the adversarial model to predict the protected feature from the primary model. In effect, the combined model becomes better at accurately predicting CHD while simultaneously becoming less biased in predicting based on gender as training progresses.
 
 ## 6. Hyperparameter Tuning and Optimization
 

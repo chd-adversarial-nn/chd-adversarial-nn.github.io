@@ -8,12 +8,12 @@ toc_label: "Local Setup Instructions"
 toc_icon: "wrench"
 toc_sticky: true
 ---
-*Please reference our [project repository](https://github.com/patsals/DSC-180-Capstone) to view the codebase for our 2024-2025 UC San Diego Data Science Capstone Project: An Adversarial Framework for Mitigating Gender Bias in Coronary Heart Disease Prediction.*
+*Please reference our [project repository](https://github.com/patsals/CHD-adversarial-nn) to view the codebase for our 2024-2025 UC San Diego Data Science Capstone Project: An Adversarial Framework for Mitigating Gender Bias in Coronary Heart Disease Prediction.*
 
 ## 1. Cloning Code
 - Clone repository into your working directory:
-    `git clone https://github.com/patsals/DSC-180-Capstone.git`
-- Enter the repository directory `DSC-180-Capstone`
+    `git clone https://github.com/patsals/CHD-adversarial-nn.git`
+- Enter the repository directory `CHD-adversarial-nn`
 
 ## 2.a. Setting up Environment (Windows Users)
 - Install Linux using Windows Subsystem for Linux (WSL) in powershell:
