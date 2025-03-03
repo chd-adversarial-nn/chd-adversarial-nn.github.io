@@ -49,7 +49,7 @@ Comparing these numbers to our baseline model, the test accuracy score dropped s
 
 | Metric | Score |
 | --- | --- | --- |
-| Demographic Parity Difference | -0.1876 |
+| Demographic Parity Difference | 0.2436 |
 | Equal Opportunity Difference | 0.0106 |
 | Disparate Impact | 1.4245 |
 
