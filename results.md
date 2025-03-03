@@ -33,7 +33,7 @@ The best configuration of hyperparameters we found was as follows:
 
 | Learning Rate | Batch Size | Lambda | Adversarial Model Architecture |
 | --- | --- | --- | --- |
-| 0.001 | 0.05 | 32 | Logistic Regression |
+| 0.001 | 32 | 0.05 | Logistic Regression |
 
 With this model, we were able to achieve the following  metrics:
 
