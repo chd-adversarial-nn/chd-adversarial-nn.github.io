@@ -64,7 +64,7 @@ Our implementation of an adversarial model was designed to decrease equal opport
 
 In our evaluation, we were able to successfully combine our neural network predictor with adversarial debiaising to protect a sensitive feature in our dataset. While overall accuracy decreased, we believe the tradeoff is worthwhile in order to improve fairness and minimize bias. Especially in the context of healthcare, where patients health and wellbeing are at stake, it is of vital importance to consider fairness.
 
-Importantly, we note that our model should under no context be used to conclusively diagnose patients for CHD. It is absolutely **not** a sufficient substitute for professional diagnosis and treatment from a licensed physician. We believe the value of our model lies primarily in our advent of the adversarial nerual network configuration, and secondly as an iterative improvement on existing models used to predict CHD.
+Importantly, we note that our model should under no context be used to conclusively diagnose patients for CHD. It is absolutely **not** a sufficient substitute for professional diagnosis and treatment from a licensed physician. We believe the value of our model lies primarily in our advent of the adversarial neural network configuration, and secondly as an iterative improvement on existing models used to predict CHD.
 
 ## Limitations
 
