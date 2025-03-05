@@ -127,14 +127,14 @@ author:
 footer:
   links:
     - label: "Diego Silva"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/dsilva019"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/diego-silva-176b8022a/"
     - label: "Patrick Salsbury"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/patsals"
+      icon: "fa-solid fa-earth-americas"
+      url: "https://patricksalsbury.com"
     - label: "Kai Ni"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ckni"
+      icon: "fa-solid fa-earth-americas"
+      url: "https://ckai.io"
 
 # Reading Files
 include:
