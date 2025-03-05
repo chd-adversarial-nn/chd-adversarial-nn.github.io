@@ -14,4 +14,6 @@ author_profile: true
 | 5 | Disparities In Physicians' Interpretations Of Heart Disease Symptoms By Patient Gender: Results Of A Video Vignette Factorial Experiment | <https://doi.org/10.1089/jwh.2008.1007> |
 | 6 | Mitigating The Risk Of Artificial Intelligence Bias In Cardiovascular Care | <https://doi.org/10.1016/S2589-7500(24)00155-9> |
 | 7 | An Efficient Convolutional Neural Network For Coronary Heart Disease Prediction | <https://doi.org/10.1016/j.eswa.2020.113408> |
-
+| 8 | An Adversarial Training Framework for Mitigating Algorithmic Biases in Clinical Machine Learning | <https://doi.org/10.1038/s41746-023-00805-y> |
+| 9 | Fairlearn Team: Common Fairness Metrics | [URL](https://fairlearn.org/main/user_guide/assessment/common_fairness_metrics.html) |
+| 10 | IBM Cloud Pak for Data: Disparate Impact | [URL](https://dataplatform.cloud.ibm.com/docs/content/wsj/model/wos-disparate-impact.html) |
